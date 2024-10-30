@@ -130,7 +130,7 @@ fun LatihanUserInput(modifier: Modifier = Modifier) {
         )
         Button(onClick = {dataNama = nama
             dataEmail = email
-            dataJenisK = dataJenisK
+            dataJenisK = jenisK
             dataNoHp = noHp
             dataAlamat = alamat
                          }, modifier = Modifier.padding(vertical = 10.dp)) {
